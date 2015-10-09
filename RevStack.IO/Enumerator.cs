@@ -12,6 +12,7 @@ using System.Security.Permissions;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
+using RevStack.Pattern;
 
 namespace RevStack.IO
 {
@@ -20,8 +21,10 @@ namespace RevStack.IO
     /// <see cref="FastDirectoryEnumerator"/> class.
     /// </summary>
     [Serializable]
-    public class FileData
+    public class FileData : IEntity<string>
     {
+        
+        public string Id { get; set; }
         /// <summary>
         /// Attributes of the file.
         /// </summary>
@@ -112,6 +115,7 @@ namespace RevStack.IO
             this.Size = CombineHighLowInts(findData.nFileSizeHigh, findData.nFileSizeLow);
 
             this.Name = findData.cFileName;
+            this.Id = this.Name;
             this.Path = System.IO.Path.Combine(dir, findData.cFileName);
         }
 

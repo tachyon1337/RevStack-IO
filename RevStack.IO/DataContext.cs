@@ -17,7 +17,7 @@ namespace RevStack.IO
             _searchOption = searchOption;
         }
 
-        IEnumerable<FileData> Get()
+        public IEnumerable<FileData> Get()
         {
             return FastDirectoryEnumerator.EnumerateFiles(_path, _searchPattern, _searchOption);
         }

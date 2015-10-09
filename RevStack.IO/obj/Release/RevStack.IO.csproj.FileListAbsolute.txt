@@ -2,3 +2,6 @@
 \\psf\Home\Documents\Development\mono\RevStack\RevStack.IO\RevStack.IO\bin\Release\RevStack.IO.pdb
 \\psf\Home\Documents\Development\mono\RevStack\RevStack.IO\RevStack.IO\obj\Release\RevStack.IO.dll
 \\psf\Home\Documents\Development\mono\RevStack\RevStack.IO\RevStack.IO\obj\Release\RevStack.IO.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.IO\RevStack.IO\bin\Release\RevStack.Pattern.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.IO\RevStack.IO\bin\Release\RevStack.Pattern.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.IO\RevStack.IO\obj\Release\RevStack.IO.csprojResolveAssemblyReference.cache
